@@ -35,6 +35,6 @@ echo 'java -jar ~/.minecraft/TLauncher.jar' >> tlauncher
 
 sudo mv tlauncher.desktop /usr/share/applications/
 
-sudo mv tlauncher /usr/bin/
+sudo mv tlauncher /usr/local/bin
 
 echo 'TLauncher is now installed on your device!!'
