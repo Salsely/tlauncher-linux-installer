@@ -10,7 +10,7 @@ Just a simple script that adds a desktop entry for Minecraft's TLauncher among o
 ### Installation
 
 ```
-git clone tlauncher-linux-installer
+git clone https://github.com/Salsely/tlauncher-linux-installer
 ```
 
 ```
@@ -18,5 +18,5 @@ cd tlauncher-linux-installer
 ```
 
 ```
-sh ./Install.sh
+sh ./Installer.sh
 ```
