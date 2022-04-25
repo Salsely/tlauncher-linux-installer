@@ -37,4 +37,4 @@ sudo mv tlauncher.desktop /usr/share/applications/
 
 sudo mv tlauncher /usr/local/bin
 
-echo 'TLauncher is now installed on your device!!'
+echo 'TLauncher is now installed on your device!! Restart for changes to take effect.'
