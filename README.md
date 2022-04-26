@@ -16,5 +16,7 @@ git clone https://github.com/Salsely/tlauncher-linux-installer
 
 cd tlauncher-linux-installer
 
+chmod -x ./Install.sh
+
 sh ./Installer.sh
 ```
