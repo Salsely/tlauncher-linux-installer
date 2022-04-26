@@ -16,10 +16,9 @@ chmod -x tlauncher.desktop
 
 echo '[Desktop Entry]
 Encoding=UTF-8
-Version=1.0
 Type=Application
 Terminal=false
-Exec=/usr/bin/local/tlauncher
+Exec=/usr/local/bin/tlauncher
 Name=TLauncher
 Icon=minecraft' >> tlauncher.desktop
 
