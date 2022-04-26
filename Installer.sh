@@ -12,7 +12,7 @@ mv TLauncher.jar ~/.minecraft
 
 touch tlauncher.desktop
 
-chmod -x tlauncher.desktop
+chmod +x tlauncher.desktop
 
 echo '[Desktop Entry]
 Encoding=UTF-8
@@ -24,7 +24,7 @@ Icon=minecraft' >> tlauncher.desktop
 
 touch tlauncher
 
-chmod -x tlauncher
+chmod +x tlauncher
 
 echo 'java -jar ~/.minecraft/TLauncher.jar' >> tlauncher
 
