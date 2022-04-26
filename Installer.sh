@@ -6,10 +6,6 @@ unzip f.php\?f\=files%2FTLauncher-2.841.zip
 
 rm f.php\?f\=files%2FTLauncher-2.841.zip
 
-rm README-RUS.txt
-
-rm README-EN.txt
-
 mv TLauncher-2.841.jar TLauncher.jar
 
 mv TLauncher.jar ~/.minecraft
@@ -23,7 +19,7 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=tlauncher
+Exec=/usr/bin/local/tlauncher
 Name=TLauncher
 Icon=minecraft' >> tlauncher.desktop
 
@@ -37,4 +33,6 @@ sudo mv tlauncher.desktop /usr/share/applications/
 
 sudo mv tlauncher /usr/local/bin
 
-echo 'TLauncher is now installed on your device!! Restart for changes to take effect.'
+sudo update-desktop-database
+
+echo 'TLauncher is now installed on your device!!'
