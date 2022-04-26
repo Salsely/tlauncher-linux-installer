@@ -4,8 +4,6 @@ wget https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.841.zip
 
 unzip f.php\?f\=files%2FTLauncher-2.841.zip
 
-rm f.php\?f\=files%2FTLauncher-2.841.zip
-
 mv TLauncher-2.841.jar TLauncher.jar
 
 mv TLauncher.jar ~/.minecraft
